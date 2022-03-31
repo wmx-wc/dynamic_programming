@@ -239,6 +239,7 @@ public int recursion_matrix_mutiply(int[] p, int[][] m, int[][] s,
         if (q > temp) {
             q = temp;
             m[i][j] = temp;
+            s[i][j] = k;
         }
     }
     return m[i][j];
